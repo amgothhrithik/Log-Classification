@@ -1,7 +1,7 @@
 ## Goal: To Classify log messages 
 We will first convert messages into embedding later we wil use 3 methods to classify the log messages.They are: 
 - Regex Classification
-  - DBSCAN Clustering + Regex => For simple-pattern messages.
+  - DBSCAN Clustering + Regex => For simple-pattern and repetitive messages.
 - Non-Regex Classification(for non-pattern messages).
   - Linear Regression with enough samples in the dataset.
   - Llama for less number of samples.
